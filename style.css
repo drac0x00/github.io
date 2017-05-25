@@ -1,12 +1,12 @@
 body {
   margin-top: 10%;
-  background-color: GRAY;
+  background-color: #3d3d3d;
 }
 h1 {
   font-family: Lato;
   text-align: center;
   font-size: 27px;
-  color: BLACK;
+  color: WHITE;
 }
 
 h2 {
@@ -19,16 +19,16 @@ h3 {
   font-family: Lato;
   text-align: center;
   font-size: 19px;
-  color: BLACK;
+  color: WHITE;
 }
 
 a {
   text-decoration: none;
-  color: BLACK;
+  color: WHITE;
 }
 
 a:hover {
-  color: BLACK;
+  color: #00B3B3;
 }
 
 @media only screen and (max-width: 500px) {
