@@ -22,6 +22,10 @@ h3 {
   color: WHITE;
 }
 
+#meta {
+  margin-top: -10px;
+}
+
 a {
   text-decoration: none;
   color: WHITE;
