@@ -59,10 +59,10 @@ a:hover {
 
   a {
     text-decoration: none;
-    color: BLACK;
+    color: WHITE;
   }
 
   a:hover {
-    color: BLACK;
+    color: #00B3B3;
   }
 }
