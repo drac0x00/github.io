@@ -1,68 +1,19 @@
 body {
-  margin-top: 10%;
-  background-color: #ffffff;
+   background-color: #ffffff;
 }
-h1 {
-  font-family: Lato;
+
+p {
+  font-family: "Courier";
+  font-size: 12px;
   text-align: center;
-  font-size: 27px;
-  color: WHITE;
 }
 
-h2 {
-  font-family: Lato;
-  text-align: center;
-  font-size: 20px;
-}
-
-h3 {
-  font-family: Lato;
-  text-align: center;
-  font-size: 19px;
-  color: WHITE;
-}
-
-#meta {
-  margin-top: -10px;
-}
-
-a {
-  text-decoration: none;
-  color: WHITE;
-}
-
-a:hover {
-  color: #00B3B3;
-}
-
-@media only screen and (max-width: 500px) {
-  body {
-    margin-top: 10%
-  }
-  h1 {
-    font-family: Lato;
-    text-align: center;
-    font-size: 27px;
-  }
-
-  h2 {
-    font-family: Lato;
-    text-align: center;
-    font-size: 20px;
-  }
-
-  h3 {
-    font-family: Lato;
-    text-align: center;
-    font-size:19px;
-  }
-
-  a {
-    text-decoration: none;
-    color: WHITE;
-  }
-
-  a:hover {
-    color: #00B3B3;
-  }
+#outline {
+  margin: 0 auto;
+  margin-top: 15%;
+  width: 300px;
+  height: 150px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
 }
