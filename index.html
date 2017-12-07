@@ -1,14 +1,42 @@
 <html>
   <head>
+    <script src="https://use.fontawesome.com/05826235be.js"></script>
     <link rel="stylesheet" href="style.css">
+
+    <script>
+    // Store the toggle and lightswitch elements in variables
+    var toggle = document.getElementById('toggle');
+    var lightSwitch = document.getElementById('lightSwitch');
+    var title = document.getElementById('title');
+    
+    // Toggle the off class on the body and the move class on the lightswitch
+    function backgroundToggle(){
+      document.body.classList.toggle('off');
+      lightSwitch.classList.toggle('move');
+      title.classList.toggle('dark');
+    }
+    // Create an event listener that watches for a click on the toggle element and runs the backgroundToggle function
+    toggle.onclick = backgroundToggle;
+    </script>
   </head>
   <body>
-    <div id="outline">
-      <p>Hello, I'm Kurt Bugbee.</p>
-      <p>I'm a Software Engineer and InfoSec enthusiast. I spending my time learning how to make things and learning how to break things.</p>
-      <p>Check out my <a href="https://github.com/Ksbugbee">Github</a>. Follow me on <a href="https://github.com/Ksbugbee">Twitter</a>. Send me an <a href="mailto:kurt@bugbee.io?Subject=Hi!">email</a>.</p>
-      </p>
+<!--     <div class="outline">
+      <p><a href="https://www.linkedin.com/in/kurtbugbee"><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i></a></p>        
+      <p><a href="https://github.com/Ksbugbee"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a></p>
+      <p><a href="mailto:kurt@bugbee.io?Subject=Hi!"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a></p>
+      <p><a href="https://www.instagram.com/kurtbugbee/"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a></p>
+      <p><a href="https://medium.com/@kurtbugbee"><i class="fa fa-medium fa-3x" aria-hidden="true"></i></a></p>
+      <p><a href="mailto:kurt@bugbee.io?Subject=Hi!"><i class="fa fa-telegram fa-3x" aria-hidden="true"></i></a></p>
+    </div> -->
+
+  <div class="wrapper">
+      
+    <div id="toggle" class="toggle">
+      <input type="checkbox" class="check">
+        <div id="lightSwitch" class="switch lightSwitch"></div>
+        <div class="track lightTrack"></div>
     </div>
+  </div>
 
   </body>
 </html>
