@@ -18,46 +18,9 @@ p {
   height: 50px;
 }
 
-.nav-text-left {
-  display: inline-flex;
-  align-items: center;
-  font-size: 1.1em;
-}
-
-.nav-text-right {
-  display: inline-flex;
-  align-items: center;
-  font-size: 1.1em;
-  margin-left: 15px;
-
-}
-
-#left {
-  float: left;
-  height: 100%;
-}
-
-#right {
-  float: right;
-  height: 100%;
-  vertical-align: middle;
-}
-
 #center {
   width: 600px;
   margin: 0 auto;
-}
-
-#content {  
-  width: 600px;
-  margin: 0 auto;
-  height: 50px;
-}
-
-#content-text {
-  align-items: center;
-  color: dimgray;
-  font-size: 1.1em;
 }
 
 #footer {  
