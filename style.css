@@ -1,35 +1,5 @@
 @media screen and (min-width: 600px) {
-  a {
-    text-decoration: none;
-    color: #551A8B;
-  }
 
-  p {
-    font-family: 'Lato', sans-serif;
-    font-size: 1.1em;
-  }
-
-  #nav {
-    width: 600px;
-    margin: 0 auto;
-    height: 50px;
-  }
-
-  #center {
-    width: 600px;
-    margin: 0 auto;
-  }
-
-  #footer {  
-    width: 600px;
-    margin: 0 auto;
-  }
-
-  .footer-text {
-    color: dimgray;
-    font-size: 0.9em;
-    align-items: center;
-  }
 }
 
 a {
@@ -43,18 +13,18 @@ p {
 }
 
 #nav {
-  width: 600px;;
+  max-width: 32em;
   margin: 0 auto;
-  height: 50px;
+  height: 2em;
 }
 
 #center {
-  width: 600px;
+  max-width: 32em;
   margin: 0 auto;
 }
 
 #footer {  
-  width: 600px;
+  max-width: 32em;
   margin: 0 auto;
 }
 
