@@ -36,7 +36,8 @@ p {
 }
 
 img {
-  margin: 5px;
+  margin: 0.5em;
+  height: 2em;
 }
 
 .block {
