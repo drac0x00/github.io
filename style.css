@@ -1,49 +1,62 @@
 @media screen and (min-width: 600px) {
 }
 
+@font-face {
+  font-family: "Hello";
+  src: url(Pixeled.ttf) format("truetype");
+}
+
+
 a {
   text-decoration: none;
   color: #551A8B;
 }
 
-a:hover {
-  background-color: #551A8B;
-  color: white;
+
+h1 {
+  font-family: 'Hello';
+  font-size: 4em;
+  font-weight: 400;
+  line-height: 1.7;
+  margin-bottom: 0.25em;
 }
 
-p, h1 {
+h2 {
+  font-family: 'Hello';
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+p {
   font-family: "Lucida Console","Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
   font-size: 0.85em;
   font-weight: 400;
   line-height: 1.7;
 }
 
-p {
-  margin: 0;
+img {
+  margin: 5px;
 }
 
-.bullet {
-  margin-bottom: 0.5em;
+.block {
+  margin: 0 auto;
+  text-align: center;
 }
 
-#nav {
+.nav {
   max-width: 32em;
   margin: 0 auto;
   height: 2em;
 }
 
-#center {
-  max-width: 32em;
-  margin: 0 auto;
+div.center
+{
+   display: none
 }
 
-#footer {  
+.center {
   max-width: 32em;
   margin: 0 auto;
-}
-
-.footer-text {
-  color: dimgray;
-  font-size: 0.9em;
-  align-items: center;
+  text-align: center;
 }
