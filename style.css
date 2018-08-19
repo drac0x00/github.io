@@ -3,7 +3,7 @@
 
 @font-face {
   font-family: "Hello";
-  src: url(Pixeled.ttf) format("truetype");
+  src: url("Pixeled.ttf") format("truetype");
 }
 
 
