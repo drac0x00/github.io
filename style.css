@@ -2,8 +2,8 @@
 }
 
 @font-face {
-  font-family: "Hello";
-  src: url("Pixeled.ttf") format("truetype");
+  font-family: 'Pixeled';
+  src: url('Pixeled.ttf') format("truetype");
 }
 
 
@@ -14,7 +14,7 @@ a {
 
 
 h1 {
-  font-family: 'Hello';
+  font-family: 'Pixeled';
   font-size: 4em;
   font-weight: 400;
   line-height: 1.7;
@@ -22,7 +22,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Hello';
+  font-family: 'Pixeled';
   font-size: 1em;
   font-weight: 400;
   line-height: 1.7;
