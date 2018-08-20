@@ -1,0 +1,63 @@
+@media screen and (min-width: 600px) {
+}
+
+@font-face {
+  font-family: 'Pixeled';
+  src: url('../Pixeled.ttf') format("truetype");
+}
+
+
+a {
+  text-decoration: none;
+  color: #551A8B;
+}
+
+
+h1 {
+  font-family: 'Pixeled';
+  font-size: 4em;
+  font-weight: 400;
+  line-height: 1.7;
+  margin-bottom: 0.25em;
+}
+
+h2 {
+  font-family: 'Pixeled';
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+p {
+  font-family: "Lucida Console","Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
+  font-size: 0.85em;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+img {
+  margin: 0.5em;
+  height: 2em;
+}
+
+.block {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.nav {
+  max-width: 32em;
+  margin: 0 auto;
+  height: 2em;
+}
+
+div.center
+{
+   display: none
+}
+
+.center {
+  max-width: 32em;
+  margin: 0 auto;
+  text-align: center;
+}
