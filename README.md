@@ -1,7 +1,7 @@
 # bugbee.io
 
-Hi! This is my personal website repo. 
-You can view this website at [bugbee.io](https://bugbee.io0.
+Hi! This is my personal website repo.
+You can view this website at [bugbee.io](https://bugbee.io).
 
 This page is hosted by Github Pages.
 Cloudflare powers my DNS.
