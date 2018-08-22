@@ -6,12 +6,25 @@
   src: url('../Pixeled.ttf') format("truetype");
 }
 
+body {
+  background-color: #111;
+}
+
 
 a {
   text-decoration: none;
   color: #551A8B;
 }
 
+
+h1 {
+  font-family: 'Pixeled';
+  font-size: 4em;
+  font-weight: 400;
+  line-height: 1.7;
+  margin-bottom: 0.25em;
+  filter: invert(100%);
+}
 
 h1 {
   font-family: 'Pixeled';
@@ -38,6 +51,7 @@ p {
 img {
   margin: 0.5em;
   height: 2em;
+  filter: invert(100%);
 }
 
 .block {
