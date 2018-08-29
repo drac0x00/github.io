@@ -8,5 +8,7 @@ Cloudflare powers my DNS.
 
 Feel free to send me an email at kurt@bugbee.io if you have any questions.
 
+Cheers!
+
 
 
