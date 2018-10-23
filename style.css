@@ -6,14 +6,8 @@ body {
 }
 
 a {
-  box-shadow: inset 0 -0.33333em rgba(157, 201, 255, 0.32);
-  text-decoration: none; 
-  font-family: 'Inconsolata', monospace;
-  font-size: 14px;
-  letter-spacing: 1px;
-  line-height: 27px;
+  text-decoration: none;
   color: #3d3d3d;
-  margin: 0px;
 }
 
 a:hover {
@@ -47,15 +41,17 @@ p {
 }
 
 .content {
-  text-align: center;
+  text-align: left;
   margin: 0 auto;
   margin-top: 125px;
   padding: 60px 36px;
   max-width: 500px;
 }
 
-div.content
-{
-   display: none
+.statement2 {
+  display: none;
 }
 
+span {
+  cursor: pointer;
+}

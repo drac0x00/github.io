@@ -13,9 +13,15 @@
 
 </head>
 
-<script>
+<!-- <script>
   $(function () {
     $('div').fadeIn(2000);
+  });
+</script> -->
+<script>$(document).ready(function () {
+    $("span").click(function () {
+      $(".statement2").fadeToggle("slow");
+    });
   });
 </script>
 
@@ -25,14 +31,18 @@
       <h1>Hi! I'm Kurt.</h1>
     </div>
     <div class="statement">
-      <p>Programmer Hacker Minimalist</p>
-      <p>Let's build something together.</p>
+      <h1>Programmer</h1>
+      <h1>Hacker</h1>
+      <h1>Minimalist</h1>
     </div>
     <div class="statement">
-      <p><a target="_blank" href="https://github.com/drac0x00">[0] github/drac0x00</a></p>
-      <p><a target="_blank" href="https://twitter.com/KurtBugbee">[1] twitter/kurtbugbee</a></p>
-      <p><a target="_blank" href="https://medium.com/@kurtbugbee">[2] medium/kurtbugbee</a></p>
-      <p><a href="mailto:kurt@bugbee.io">[3] kurt@bugbee.io</a></p>
+      <h1>Let's build something <span style="text-decoration: underline">together.</span></h1>
+    </div>
+    <div class="statement2">
+      <h1><a target="_blank" href="https://github.com/drac0x00">Github</a></h1>
+      <h1><a target="_blank" href="https://twitter.com/KurtBugbee">Twitter</a></h1>
+      <h1><a target="_blank" href="https://medium.com/@kurtbugbee">Medium</a></h1>
+      <h1><a href="mailto:kurt@bugbee.io">Email</a></h1>
     </div>
   </div>
 </body>
