@@ -1,0 +1,11 @@
+@import 'theme';
+$theme-font: Arial, sans-serif;
+
+body {
+  font-family: $theme-font;
+  background-color: $theme-Light;
+  h1,
+  h2 {
+    color: $theme-Dark;
+  }
+}
