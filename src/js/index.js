@@ -1,8 +1,9 @@
 import '../styles/app.css';
+import Vue from 'vue';
 
 var app = new Vue ({
   el: '#app',
   data: {
-    slogan: 'Listy - A Terminal-Based Producivity App',
+    message: 'Listy - A Terminal-Based Producivity App',
   },
 });

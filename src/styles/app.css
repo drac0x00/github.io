@@ -6,5 +6,8 @@ body h1,
 body h2 {
   color: #363636;
 }
+body #app {
+  color: blue;
+}
 
 /*# sourceMappingURL=app.css.map */
