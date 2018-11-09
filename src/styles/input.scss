@@ -8,11 +8,22 @@ body {
   h2 {
     color: $theme-Dark;
   }
+  h3 {
+    font-size: 12px;
+  }
   #app {
     color: #000000;
+    margin: 0 auto;
+    margin-top: 125px;
+    width: fit-content;
   }
   .footer {
-    font-size: 10px;
-    color: #d3d3d3;
+    color: #dbdbdb;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    text-align: center;
   }
 }
