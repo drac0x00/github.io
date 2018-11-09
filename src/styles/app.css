@@ -9,5 +9,9 @@ body h2 {
 body #app {
   color: blue;
 }
+body #footer {
+  font-size: 10px;
+  color: #d3d3d3;
+}
 
 /*# sourceMappingURL=app.css.map */
