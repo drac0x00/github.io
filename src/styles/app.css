@@ -9,7 +9,7 @@ body h2 {
 body #app {
   color: #000000;
 }
-body #footer {
+body .footer {
   font-size: 10px;
   color: #d3d3d3;
 }
