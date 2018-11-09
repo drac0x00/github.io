@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: Roboto, sans-serif;
   background-color: #ffffff;
 }
 body h1,
@@ -7,7 +7,7 @@ body h2 {
   color: #363636;
 }
 body #app {
-  color: blue;
+  color: #000000;
 }
 body #footer {
   font-size: 10px;

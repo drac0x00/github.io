@@ -1,5 +1,5 @@
 @import 'theme';
-$theme-font: Arial, sans-serif;
+$theme-font: Roboto, sans-serif;
 
 body {
   font-family: $theme-font;
@@ -9,7 +9,7 @@ body {
     color: $theme-Dark;
   }
   #app {
-    color: blue;
+    color: #000000;
   }
   #footer {
     font-size: 10px;
