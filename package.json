@@ -1,5 +1,5 @@
 {
-  "name": "SiteListy",
+  "name": "PersonalWebsite",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/drac0x00/SiteListy.git"
+    "url": "git+https://github.com/drac0x00/github.io.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/drac0x00/SiteListy/issues"
+    "url": "https://github.com/drac0x00/github.io/issues"
   },
-  "homepage": "https://github.com/drac0x00/SiteListy#readme",
+  "homepage": "https://github.com/drac0x00/github.io#readme",
   "devDependencies": {
     "clean-webpack-plugin": "^0.1.19",
     "css-loader": "^1.0.1",

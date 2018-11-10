@@ -4,6 +4,6 @@ import Vue from 'vue';
 var app = new Vue ({
   el: '#app',
   data: {
-    message: 'Listy - A Terminal-Based Producivity App',
+    message: "Hi! I'm Kurt.",
   },
 });
