@@ -11,19 +11,12 @@ body {
   h3 {
     font-size: 12px;
   }
+  p {
+  }
   #app {
     color: #000000;
+    width: fit-content;
     margin: 0 auto;
     margin-top: 125px;
-    width: fit-content;
-  }
-  .footer {
-    color: #dbdbdb;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    height: 50px;
-    width: 100%;
-    text-align: center;
   }
 }
