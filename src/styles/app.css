@@ -1,5 +1,5 @@
 body {
-  width: fit-content;
+  width: 100vw;
   max-width: 18rem;
   font-family: Monosten, sans-serif;
   background-color: #ffffff;
@@ -18,7 +18,7 @@ body p {
   font-size: 14px;
 }
 body #app #here {
-  margin-top: 5em;
+  margin-top: 10em;
 }
 body #app #here p {
   display: inline;
@@ -31,9 +31,6 @@ body #app #here p a:hover {
   color: #ffffff;
   background: #000000;
   cursor: pointer;
-}
-body #app #closing {
-  margin-top: 2em;
 }
 
 /*# sourceMappingURL=app.css.map */
