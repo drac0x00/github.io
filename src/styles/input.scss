@@ -9,6 +9,9 @@ $theme-font: Monosten, sans-serif;
 
 body {
   @include respond-to(sm) {
+    font-size: $root-font-size;
+  }
+  @include respond-to(sm) {
     margin: {
       left: 10rem;
       right: 0;
@@ -19,15 +22,6 @@ body {
   max-width: $root-container-width;
   font-family: $theme-font;
   background-color: $theme-Light;
-  h1,
-  h2 {
-    color: $theme-Dark;
-  }
-
-  p {
-    font-size: $p-font-size;
-  }
-
   #app {
     #here {
       margin-top: 10em;
