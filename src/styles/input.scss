@@ -2,6 +2,8 @@
 $theme-font: Monosten, sans-serif;
 
 body {
+  max-width: $root-container-width;
+
   font-family: $theme-font;
   background-color: $theme-Light;
   h1,
