@@ -5,8 +5,8 @@ const CleanWebpackPlugin = require ('clean-webpack-plugin');
 module.exports = {
   entry: './src/js/index.js',
   plugins: [
-    new CleanWebpackPlugin(['dist']),
-    new HtmlWebpackPlugin({
+    new CleanWebpackPlugin (['.']),
+    new HtmlWebpackPlugin ({
       title: 'My App',
       filename: 'index.html',
       template: 'src/html/home.html',
@@ -14,7 +14,7 @@ module.exports = {
   ],
   output: {
     filename: 'main.js',
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve (__dirname, '.'),
   },
   resolve: {
     alias: {
