@@ -17,7 +17,7 @@ body {
     margin: 0 auto;
     margin-top: 11em;
   }
-  width: 100vw;
+  width: fit-content;
   max-width: $root-container-width;
   font-family: $theme-font;
   background-color: $theme-Light;
