@@ -1,0 +1,41 @@
+@import 'theme';
+$theme-font: Monosten, sans-serif;
+
+body {
+  font-family: $theme-font;
+  background-color: $theme-Light;
+  h1,
+  h2 {
+    color: $theme-Dark;
+  }
+
+  p {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+  }
+
+  #app {
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 125px;
+    #here {
+      margin-top: 50px;
+      p {
+        display: inline;
+        a {
+          text-decoration: none;
+          color: #000000;
+          &:hover {
+            color: #ffffff;
+            background: #000000;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    #closing {
+      margin-top: 10px;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+body {
+  font-family: Monosten, sans-serif;
+  background-color: #ffffff;
+}
+body h1,
+body h2 {
+  color: #363636;
+}
+body p {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+body #app {
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 125px;
+}
+body #app #here {
+  margin-top: 50px;
+}
+body #app #here p {
+  display: inline;
+}
+body #app #here p a {
+  text-decoration: none;
+  color: #000000;
+}
+body #app #here p a:hover {
+  color: #ffffff;
+  background: #000000;
+  cursor: pointer;
+}
+body #app #closing {
+  margin-top: 10px;
+}
+
+/*# sourceMappingURL=app.css.map */

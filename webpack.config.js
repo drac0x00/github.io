@@ -2,11 +2,31 @@ var path = require ('path');
 var webpack = require ('webpack');
 
 module.exports = {
+<<<<<<< HEAD
   entry: './src/main.js',
   output: {
     path: path.resolve (__dirname, './dist'),
     publicPath: '/dist/',
     filename: 'build.js',
+=======
+  entry: './src/js/index.js',
+  plugins: [
+    new CleanWebpackPlugin (['.']),
+    new HtmlWebpackPlugin ({
+      title: 'My App',
+      filename: 'index.html',
+      template: 'src/html/home.html',
+    }),
+  ],
+  output: {
+    filename: 'main.js',
+    path: path.resolve (__dirname, '.'),
+  },
+  resolve: {
+    alias: {
+      vue$: 'vue/dist/vue.esm.js', // 'vue/dist/vue.common.js' for webpack 1
+    },
+>>>>>>> ea49019... Added links
   },
   module: {
     rules: [
@@ -59,6 +79,18 @@ module.exports = {
             loader: 'ttf-loader',
             options: {
               name: './font/[hash].[ext]',
+            },
+          },
+        ],
+      },
+      {
+        test: /\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+              outputPath: 'fonts/',
             },
           },
         ],
