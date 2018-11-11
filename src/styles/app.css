@@ -1,32 +1,28 @@
-body #app {
+body {
   width: 100vw;
   max-width: 18rem;
   font-family: Monosten, sans-serif;
   background-color: #ffffff;
 }
 @media screen and (min-width: 600px) {
-  body #app {
+  body {
     font-size: 14px;
   }
 }
 @media screen and (min-width: 600px) {
-  body #app {
-    margin-left: 10rem;
-    margin-right: 0;
-    margin-top: 8rem;
+  body {
+    margin: 0 auto;
+    margin-top: 10em;
   }
 }
-body #app #here {
-  margin-top: 10em;
-}
-body #app #here p {
+body p {
   display: inline;
 }
-body #app #here p a {
+body p a {
   text-decoration: none;
   color: #000000;
 }
-body #app #here p a:hover {
+body p a:hover {
   color: #ffffff;
   background: #000000;
   cursor: pointer;
