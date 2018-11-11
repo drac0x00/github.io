@@ -8,12 +8,10 @@ $theme-font: Monosten, sans-serif;
 }
 
 body {
+  width: fit-content;
   @include respond-to(sm) {
-    margin: {
-      left: 10rem;
-      right: 0;
-      top: 8rem;
-    }
+    margin: 0 auto;
+    margin-top: 10em;
   }
   max-width: $root-container-width;
   font-family: $theme-font;
@@ -24,15 +22,10 @@ body {
   }
 
   p {
-    padding: 0;
-    margin: 0;
     font-size: $p-font-size;
   }
 
   #app {
-    width: fit-content;
-    margin: 0 auto;
-    margin-top: 10em;
     #here {
       margin-top: 5em;
       p {
