@@ -14,10 +14,10 @@ body p {
 body #app {
   width: fit-content;
   margin: 0 auto;
-  margin-top: 125px;
+  margin-top: 10em;
 }
 body #app #here {
-  margin-top: 50px;
+  margin-top: 5em;
 }
 body #app #here p {
   display: inline;
@@ -32,7 +32,7 @@ body #app #here p a:hover {
   cursor: pointer;
 }
 body #app #closing {
-  margin-top: 10px;
+  margin-top: 2em;
 }
 
 /*# sourceMappingURL=app.css.map */
