@@ -8,11 +8,11 @@ $theme-font: Monosten, sans-serif;
 }
 
 body {
-  width: fit-content;
   @include respond-to(sm) {
     margin: 0 auto;
     margin-top: 10em;
   }
+  width: 100vw;
   max-width: $root-container-width;
   font-family: $theme-font;
   background-color: $theme-Light;
@@ -27,7 +27,7 @@ body {
 
   #app {
     #here {
-      margin-top: 5em;
+      margin-top: 10em;
       p {
         display: inline;
         a {
@@ -40,9 +40,6 @@ body {
           }
         }
       }
-    }
-    #closing {
-      margin-top: 2em;
     }
   }
 }
