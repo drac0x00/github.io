@@ -3,37 +3,49 @@ $theme-font: Monosten, sans-serif;
 
 @mixin respond-to($media) {
   @if $media == sm {
-    @media screen and (min-width: 1300px) {
+    @media screen and (min-width: 600px) {
       @content;
     }
   }
 }
 
-body {
+html {
   @include respond-to(sm) {
     font-size: $root-font-size;
   }
+  height: 100vh;
+  width: 100vw;
+  text-rendering: optimizeLegibility;
+  font: {
+    family: $theme-font;
+    size: $root-font-size * 0.95;
+  }
+}
+body {
   @include respond-to(sm) {
     margin: 0 auto;
     margin-top: 10em;
   }
   margin: 0 auto;
   margin-top: 10em;
-  width: 100vw;
   max-width: $root-container-width;
-  font-family: $theme-font;
   background-color: $theme-Light;
-  p {
-    font-size: 0.95rem;
-    display: inline;
-    a {
-      text-decoration: none;
-      color: #000000;
-      &:hover {
-        color: #ffffff;
-        background: #000000;
-        cursor: pointer;
-      }
-    }
+}
+p {
+  font-size: 0.95rem;
+  display: inline;
+  line-height: 1.3rem;
+  margin: {
+    bottom: 1.45rem;
+    top: 0;
+  }
+}
+a {
+  text-decoration: none;
+  color: #000000;
+  &:hover {
+    color: #ffffff;
+    background: #000000;
+    cursor: pointer;
   }
 }

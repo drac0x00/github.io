@@ -1,31 +1,42 @@
+html {
+  height: 100vh;
+  width: 100vw;
+  text-rendering: optimizeLegibility;
+  font-family: Monosten, sans-serif;
+  font-size: 17.1px;
+}
+@media screen and (min-width: 600px) {
+  html {
+    font-size: 18px;
+  }
+}
+
 body {
   margin: 0 auto;
   margin-top: 10em;
-  width: 100vw;
   max-width: 18rem;
-  font-family: Monosten, sans-serif;
   background-color: #ffffff;
 }
-@media screen and (min-width: 1300px) {
-  body {
-    font-size: 14px;
-  }
-}
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 600px) {
   body {
     margin: 0 auto;
     margin-top: 10em;
   }
 }
-body p {
+
+p {
   font-size: 0.95rem;
   display: inline;
+  line-height: 1.3rem;
+  margin-bottom: 1.45rem;
+  margin-top: 0;
 }
-body p a {
+
+a {
   text-decoration: none;
   color: #000000;
 }
-body p a:hover {
+a:hover {
   color: #ffffff;
   background: #000000;
   cursor: pointer;
