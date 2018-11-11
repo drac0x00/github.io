@@ -1,6 +1,12 @@
 @import 'theme';
 $theme-font: Monosten, sans-serif;
 
+@mixin respond-to($media) {
+  @if $media == sm {
+    @media screen and (min-width: 600px) { @content; }
+  }
+}
+
 body {
   max-width: $root-container-width;
 
