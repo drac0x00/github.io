@@ -24,11 +24,11 @@ body {
   @include respond-to(sm) {
     margin: 0 auto;
     margin-top: 10em;
+    width: fit-content;
   }
   margin: 0 auto;
   margin-top: 10em;
   width: fit-content;
-
   max-width: $root-container-width;
   background-color: $theme-Light;
 }

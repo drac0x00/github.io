@@ -21,6 +21,7 @@ body {
   body {
     margin: 0 auto;
     margin-top: 10em;
+    width: fit-content;
   }
 }
 
