@@ -12,15 +12,15 @@ body {
   p {
     padding: 0;
     margin: 0;
-    font-size: 14px;
+    font-size: $p-font-size;
   }
 
   #app {
     width: fit-content;
     margin: 0 auto;
-    margin-top: 125px;
+    margin-top: 10em;
     #here {
-      margin-top: 50px;
+      margin-top: 5em;
       p {
         display: inline;
         a {
@@ -35,7 +35,7 @@ body {
       }
     }
     #closing {
-      margin-top: 10px;
+      margin-top: 2em;
     }
   }
 }
