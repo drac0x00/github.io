@@ -3,7 +3,7 @@ $theme-font: Monosten, sans-serif;
 
 @mixin respond-to($media) {
   @if $media == sm {
-    @media screen and (min-width: 600px) {
+    @media screen and (min-width: 1300px) {
       @content;
     }
   }
@@ -15,13 +15,16 @@ body {
   }
   @include respond-to(sm) {
     margin: 0 auto;
-    margin-top: 11em;
+    margin-top: 10em;
   }
-  width: fit-content;
+  margin: 0 auto;
+  margin-top: 10em;
+  width: 100vw;
   max-width: $root-container-width;
   font-family: $theme-font;
   background-color: $theme-Light;
   p {
+    font-size: 0.95rem;
     display: inline;
     a {
       text-decoration: none;
