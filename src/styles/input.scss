@@ -15,7 +15,7 @@ body {
   }
   @include respond-to(sm) {
     margin: 0 auto;
-    margin-top: 10em;
+    margin-top: 11em;
   }
   width: 100vw;
   max-width: $root-container-width;
