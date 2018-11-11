@@ -3,39 +3,33 @@ $theme-font: Monosten, sans-serif;
 
 @mixin respond-to($media) {
   @if $media == sm {
-    @media screen and (min-width: 600px) { @content; }
+    @media screen and (min-width: 600px) {
+      @content;
+    }
   }
 }
 
 body {
-  #app {
-    @include respond-to(sm) {
-      font-size: $root-font-size;
-    }
-    @include respond-to(sm) {
-      margin: {
-        left: 10rem;
-        right: 0;
-        top: 8rem;
-      }
-    }
-    width: 100vw;
-    max-width: $root-container-width;
-    font-family: $theme-font;
-    background-color: $theme-Light;
-    #here {
-      margin-top: 10em;
-      p {
-        display: inline;
-        a {
-          text-decoration: none;
-          color: #000000;
-          &:hover {
-            color: #ffffff;
-            background: #000000;
-            cursor: pointer;
-          }
-        }
+  @include respond-to(sm) {
+    font-size: $root-font-size;
+  }
+  @include respond-to(sm) {
+    margin: 0 auto;
+    margin-top: 10em;
+  }
+  width: 100vw;
+  max-width: $root-container-width;
+  font-family: $theme-font;
+  background-color: $theme-Light;
+  p {
+    display: inline;
+    a {
+      text-decoration: none;
+      color: #000000;
+      &:hover {
+        color: #ffffff;
+        background: #000000;
+        cursor: pointer;
       }
     }
   }
