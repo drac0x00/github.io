@@ -1,0 +1,46 @@
+body {
+  max-width: 18rem;
+  font-family: Monosten, sans-serif;
+  background-color: #ffffff;
+}
+@media screen and (min-width: 600px) {
+  body {
+    margin-left: 10rem;
+    margin-right: 0;
+    margin-top: 8rem;
+  }
+}
+body h1,
+body h2 {
+  color: #363636;
+}
+body p {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+body #app {
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 10em;
+}
+body #app #here {
+  margin-top: 5em;
+}
+body #app #here p {
+  display: inline;
+}
+body #app #here p a {
+  text-decoration: none;
+  color: #000000;
+}
+body #app #here p a:hover {
+  color: #ffffff;
+  background: #000000;
+  cursor: pointer;
+}
+body #app #closing {
+  margin-top: 2em;
+}
+
+/*# sourceMappingURL=app.css.map */
