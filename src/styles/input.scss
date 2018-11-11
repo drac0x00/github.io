@@ -8,21 +8,21 @@ $theme-font: Monosten, sans-serif;
 }
 
 body {
-  @include respond-to(sm) {
-    font-size: $root-font-size;
-  }
-  @include respond-to(sm) {
-    margin: {
-      left: 10rem;
-      right: 0;
-      top: 8rem;
-    }
-  }
-  width: 100vw;
-  max-width: $root-container-width;
-  font-family: $theme-font;
-  background-color: $theme-Light;
   #app {
+    @include respond-to(sm) {
+      font-size: $root-font-size;
+    }
+    @include respond-to(sm) {
+      margin: {
+        left: 10rem;
+        right: 0;
+        top: 8rem;
+      }
+    }
+    width: 100vw;
+    max-width: $root-container-width;
+    font-family: $theme-font;
+    background-color: $theme-Light;
     #here {
       margin-top: 10em;
       p {
