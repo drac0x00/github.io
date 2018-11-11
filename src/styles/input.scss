@@ -14,7 +14,6 @@ html {
     font-size: $root-font-size;
   }
   height: 100vh;
-  width: 100vw;
   text-rendering: optimizeLegibility;
   font: {
     family: $theme-font;
@@ -28,6 +27,8 @@ body {
   }
   margin: 0 auto;
   margin-top: 10em;
+  width: fit-content;
+
   max-width: $root-container-width;
   background-color: $theme-Light;
 }
