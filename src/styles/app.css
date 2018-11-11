@@ -1,21 +1,24 @@
 body {
-  width: fit-content;
+  margin: 0 auto;
+  margin-top: 10em;
+  width: 100vw;
   max-width: 18rem;
   font-family: Monosten, sans-serif;
   background-color: #ffffff;
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1300px) {
   body {
     font-size: 14px;
   }
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1300px) {
   body {
     margin: 0 auto;
-    margin-top: 11em;
+    margin-top: 10em;
   }
 }
 body p {
+  font-size: 0.95rem;
   display: inline;
 }
 body p a {
