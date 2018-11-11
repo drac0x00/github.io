@@ -1,5 +1,5 @@
 body {
-  width: 100vw;
+  width: fit-content;
   max-width: 18rem;
   font-family: Monosten, sans-serif;
   background-color: #ffffff;
