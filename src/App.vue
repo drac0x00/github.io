@@ -1,19 +1,11 @@
 <template>
   <div id="app">
-    <h1>{{ msg }}</h1>
-    <h2>Essential Links</h2>
+    <h2>{{ msg }}</h2>
     <ul>
       <li><a href="https://vuejs.org" target="_blank">Core Docs</a></li>
       <li><a href="https://forum.vuejs.org" target="_blank">Forum</a></li>
       <li><a href="https://chat.vuejs.org" target="_blank">Community Chat</a></li>
       <li><a href="https://twitter.com/vuejs" target="_blank">Twitter</a></li>
-    </ul>
-    <h2>Ecosystem</h2>
-    <ul>
-      <li><a href="http://router.vuejs.org/" target="_blank">vue-router</a></li>
-      <li><a href="http://vuex.vuejs.org/" target="_blank">vuex</a></li>
-      <li><a href="http://vue-loader.vuejs.org/" target="_blank">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank">awesome-vue</a></li>
     </ul>
   </div>
 </template>
@@ -31,8 +23,11 @@ export default {
 
 <style lang="scss">
 @font-face {
-  font-family: 'Bitstream';
-  src: url('/fonts/ttf-bitstream-vera-1.10/VeraMono.ttf') format('truetype');
+  font: {
+    family: 'Bitstream';
+  }
+  src: url('/assets/fonts/ttf-bitstream-vera-1.10/VeraMono.ttf')
+    format('truetype');
 }
 
 $font-main: 'Bitstream', sans-serif;
@@ -41,9 +36,12 @@ $font-main: 'Bitstream', sans-serif;
   font-family: $font-main;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  text-align: left;
   color: #2c3e50;
   margin-top: 60px;
+  width: 100vw;
+  max-width: 18rem;
+  margin: 0 auto;
 }
 
 h1,
@@ -58,7 +56,7 @@ ul {
 
 li {
   display: inline-block;
-  margin: 0 10px;
+  margin: 0;
 }
 
 a {
