@@ -1,11 +1,12 @@
 <template>
   <div id="app">
-    <h2>{{ msg }}</h2>
+    <p>{{ msg }}</p>
     <ul>
-      <li><a href="https://vuejs.org" target="_blank">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank">Community Chat</a></li>
+      <li><a href="https://vuejs.org" target="_blank">GitHub</a></li>
+      <li><a href="https://forum.vuejs.org" target="_blank">Lists</a></li>
       <li><a href="https://twitter.com/vuejs" target="_blank">Twitter</a></li>
+      <li><a href="https://chat.vuejs.org" target="_blank">Contact</a></li>
+      
     </ul>
   </div>
 </template>
@@ -15,22 +16,39 @@ export default {
   name: 'app',
   data() {
     return {
-      msg: 'Test Site',
+      msg: 'Kurt Bugbee',
     };
   },
 };
 </script>
 
 <style lang="scss">
+@mixin respond-to($media) {
+  @if $media == sm {
+    @media screen and (min-width: 600px) {
+      @content;
+    }
+  }
+}
 @font-face {
   font: {
     family: 'Bitstream';
   }
-  src: url('/assets/fonts/ttf-bitstream-vera-1.10/VeraMono.ttf')
+  src: url('assets/fonts/ttf-bitstream-vera-1.10/VeraMono.ttf')
     format('truetype');
 }
 
-$font-main: 'Bitstream', sans-serif;
+$font-main: 'Helvetica';
+
+body {
+  @include respond-to(sm) {
+    margin: {
+      left: 10rem;
+      right: 0;
+      top: 8rem;
+    }
+  }
+}
 
 #app {
   font-family: $font-main;
@@ -38,10 +56,9 @@ $font-main: 'Bitstream', sans-serif;
   -moz-osx-font-smoothing: grayscale;
   text-align: left;
   color: #2c3e50;
-  margin-top: 60px;
   width: 100vw;
   max-width: 18rem;
-  margin: 0 auto;
+  font-size: 13px;
 }
 
 h1,
