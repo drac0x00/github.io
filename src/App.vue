@@ -5,7 +5,6 @@
       <li><a href="https://github.com/drac0x00" target="_blank">GitHub</a></li>
       <li><a href="https:kurt.app" target="_blank">Lists</a></li>
       <li><a href="mailto:kurt@kurt.app" target="_blank">Contact</a></li>
-      
     </ul>
   </div>
 </template>
@@ -22,6 +21,10 @@ export default {
 </script>
 
 <style lang="scss">
+$font-main: 'Helvetica';
+$root-container-width: 18rem;
+$root-font-size: 14px;
+
 @mixin respond-to($media) {
   @if $media == sm {
     @media screen and (min-width: 600px) {
@@ -29,15 +32,22 @@ export default {
     }
   }
 }
-@font-face {
-  font: {
-    family: 'Bitstream';
-  }
-  src: url('assets/fonts/ttf-bitstream-vera-1.10/VeraMono.ttf')
-    format('truetype');
-}
 
-$font-main: 'Helvetica';
+html {
+  @include respond-to(sm) {
+    font-size: $root-font-size;
+  }
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font: {
+    family: $font-main;
+    size: $root-font-size * 1.25;
+  }
+  height: 100vh;
+  text-rendering: optimizeLegibility;
+
+  width: fit-content;
+}
 
 body {
   @include respond-to(sm) {
@@ -47,35 +57,29 @@ body {
       top: 8rem;
     }
   }
+  margin: {
+    left: 2rem;
+    right: 2rem;
+    top: 6rem;
+  }
+  max-width: $root-container-width;
 }
 
-#app {
-  font-family: $font-main;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: left;
-  color: #2c3e50;
-  width: 100vw;
-  max-width: 18rem;
-  font-size: 13px;
-}
-
-h1,
-h2 {
-  font-weight: normal;
-}
-
-ul {
+p,
+ul,
+li {
+  font-size: 0.95rem;
+  line-height: 1.3rem;
+  margin: {
+    bottom: 1.45rem;
+    top: 0;
+  }
   list-style-type: none;
+  margin: 0;
   padding: 0;
 }
 
-li {
-  display: inline-block;
-  margin: 0;
-}
-
 a {
-  color: #42b983;
+  color: #0864c7;
 }
 </style>
