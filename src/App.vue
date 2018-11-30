@@ -2,26 +2,33 @@
   <div id="app">
     <p>{{ msg }}</p>
     <ul>
-      <li><a href="https://github.com/drac0x00" target="_blank">GitHub</a></li>
-      <li><a href="https://kurt.app">Lists</a> Coming soon!</li>
-      <li><a href="mailto:kurt@kurt.app" target="_blank">Contact</a></li>
+      <li>
+        <a href="https://github.com/drac0x00" target="_blank">GitHub</a>
+      </li>
+      <li>
+        <a href="https://kurt.app">Lists</a> Coming soon!
+      </li>
+      <li>
+        <a href="mailto:kurt@kurt.app" target="_blank">Contact</a>
+      </li>
     </ul>
+    <p>Let's build something together.</p>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'app',
+  name: "app",
   data() {
     return {
-      msg: 'Kurt Bugbee',
+      msg: "Kurt Bugbee"
     };
-  },
+  }
 };
 </script>
 
 <style lang="scss">
-$font-main: 'Helvetica';
+$font-main: "Helvetica";
 $root-container-width: 18rem;
 $root-font-size: 14px;
 
@@ -66,16 +73,17 @@ body {
 }
 
 p,
-ul,
+ul {
+  margin: {
+    top: 1.4rem;
+  }
+  padding: 0;
+}
 li {
   font-size: 0.95rem;
   line-height: 1.3rem;
-  margin: {
-    bottom: 1.45rem;
-    top: 0;
-  }
-  list-style-type: none;
   margin: 0;
+  list-style-type: none;
   padding: 0;
 }
 
