@@ -21,7 +21,7 @@ export default {
   name: "app",
   data() {
     return {
-      msg: "Kurt Bugbee"
+      msg: "Hi! I'm Kurt Bugbee."
     };
   }
 };
