@@ -6,7 +6,8 @@
         <a href="https://github.com/drac0x00" target="_blank">GitHub</a>
       </li>
       <li>
-        <a href="https://kurt.app">Lists</a> Coming soon!
+        <a href="https://kurt.app">Lists</a>
+        <i>Coming soon!</i>
       </li>
       <li>
         <a href="mailto:kurt@kurt.app" target="_blank">Contact</a>
