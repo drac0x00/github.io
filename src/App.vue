@@ -108,4 +108,7 @@ a {
   color: #0864c7;
   text-decoration: none;
 }
+a:hover {
+  color: #551a8b;
+}
 </style>
