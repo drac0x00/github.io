@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <p>{{ msg }}</p>
-    <p>I'm a Software Engineer in Boston, MA.</p>
+    <h1>{{ msg }}</h1>
+    <p>I'm a Software Engineer living in the beautiful city of Boston, MA. Most of my work is written in Go and revolves around security. Let's build something awesome together.</p>
     <ul>
       <li>
         <a href="https://github.com/drac0x00" target="_blank">
@@ -23,7 +23,6 @@
         </a>
       </li>
     </ul>
-    <p>Let's build something together.</p>
   </div>
 </template>
 
@@ -32,14 +31,15 @@ export default {
   name: "app",
   data() {
     return {
-      msg: "Hi! I'm Kurt."
+      msg: "Hi. I'm Kurt. I like to code and change the world."
     };
   }
 };
 </script>
 
 <style lang="scss">
-$font-main: "Helvetica Neue";
+$font-main: "Roboto", sans-serif;
+$font-second: "Open Sans", sans-serif;
 $root-container-width: 18rem;
 $root-font-size: 14px;
 
@@ -57,10 +57,7 @@ html {
   }
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font: {
-    family: $font-main;
-    size: $root-font-size * 1.25;
-  }
+
   height: 100vh;
   text-rendering: optimizeLegibility;
 
@@ -89,14 +86,21 @@ img {
   vertical-align: middle;
 }
 
+h1 {
+  font-family: $font-main;
+  letter-spacing: 0.05em;
+}
+
 p,
 ul {
+  font-family: $font-second;
   margin: {
     top: 1.4rem;
   }
   padding: 0;
 }
 li {
+  font-family: $font-second;
   font-size: 1rem;
   line-height: 1.3rem;
   margin: 0;
