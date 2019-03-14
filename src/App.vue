@@ -6,7 +6,7 @@
       <li>
         <a href="https://github.com/drac0x00" target="_blank">
           <img src="src/assets/icons/github-logo.svg">
-          drac0x00
+          krtbgb
         </a>
       </li>
       <li>
