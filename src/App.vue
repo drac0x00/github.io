@@ -1,12 +1,12 @@
 <template>
   <div id="app">
-    <h1>{{ msg }}</h1>
-    <p>I'm a Software Engineer living in the beautiful city of Boston, MA. Most of my work is written in Go and revolves around security. Let's build something awesome together.</p>
+    <p>{{ msg }}</p>
+    <p>I like to code and change the world.</p>
     <ul>
       <li>
-        <a href="https://github.com/drac0x00" target="_blank">
+        <a href="https://github.com/krtbgb" target="_blank">
           <img src="src/assets/icons/github-logo.svg">
-          drac0x00
+          krtbgb
         </a>
       </li>
       <li>
@@ -31,7 +31,7 @@ export default {
   name: "app",
   data() {
     return {
-      msg: "Hi. I'm Kurt. I like to code and change the world."
+      msg: "Hi. I'm Kurt."
     };
   }
 };
@@ -87,7 +87,7 @@ img {
 }
 
 h1 {
-  font-family: $font-main;
+  font-family: $font-second;
   letter-spacing: 0.05em;
 }
 
