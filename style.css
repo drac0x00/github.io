@@ -63,7 +63,6 @@
 }
 
 a {
-	text-decoration: underline;	
 	color: black;
 	font-family: robotoReg;
 }
@@ -112,6 +111,7 @@ a:hover {
 
 .pubTitle {
 	font-family: robotoReg;
+	text-decoration: underline;
 }
 
 .pubTitle2 {
