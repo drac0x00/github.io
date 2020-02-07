@@ -1,18 +1,15 @@
 body {
+	font-family: Helvetica;
 	background: white;
 	line-height: 1.5;
 	margin: 4rem auto;
 	max-width: 32rem;
 	padding-left: 2rem;
 	padding-right: 2rem;
-	font-family: Helvetica;
 	color: black;
 }
 
 ul {
 	-webkit-padding-start: 0;
-}
-
-li {
 	list-style-type: none;
 }
