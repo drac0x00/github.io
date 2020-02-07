@@ -1,132 +1,18 @@
-@font-face {
-	font-family: titleFont;
-	src: url(fonts/Roboto/Roboto-BlackItalic.ttf);
-}
-
-@font-face {
-	font-family: textFont;
-	src: url(fonts/Roboto/Roboto-Thin.ttf);
-}
-
-@font-face {
-	font-family: robotoReg;
-	src: url(fonts/Roboto/Roboto-Regular.ttf)
-}
-
-@font-face {
-	font-family: robotoLight;
-	src: url(fonts/Roboto/Roboto-Light.ttf)
-}
-
-@font-face {
-	font-family: robotoMedIt;
-	src: url(fonts/Roboto/Roboto-MediumItalic.ttf)
-}
-
-@font-face {
-	font-family: robotoLightIt;
-	src: url(fonts/Roboto/Roboto-LightItalic.ttf)
-}
-
-
-.info_text {
-	font-family: textFont;
-	font-size: 20px;
-	color: rgb(40,40,40);
-	text-align: center;
-	letter-spacing: 1px
-
-}
-
-.content {
-	margin-left: 5%;
-	margin-right: 5%;
-	padding-bottom: 5%;
-	padding-left: 10%;
-	padding-right: 10%;
-}
-
-.info {
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-
-.title {
-	font-family: titleFont;
-	font-size: 90px;
-	color: #FFFFFF;
-	color: rgb(50,50,50);
-	text-align: center;
-	margin-top: 200px;
-	margin-bottom: 10px;
-	letter-spacing: 15px
-}
-
-a {
+body {
+	background: white;
+	line-height: 1.5;
+	margin: 4rem auto;
+	max-width: 32rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	font-family: Helvetica;
 	color: black;
-	font-family: robotoReg;
 }
 
-.favorites {
-    text-decoration: none;	
-    font-family: robotoLight;
+ul {
+	-webkit-padding-start: 0;
 }
 
-a:hover {
-	/* text-decoration: underline; */
-	font-weight: bold;
-}
-
-.text_link {
-	color: rgb(40,40,40);
-	/* background-color: #ffffcc; */
-	text-decoration: underline;
-	text-decoration-color: black;
-}
-
-.icon {
-	width: 45px;
-	height: 45px;
-	display: inline-block;
-	padding: 5px;
-}
-
-.info_text {
-	font-family: robotoLight;
-	font-size: 18px;
-	color: rgb(50,50,50);
-	text-align: left;
-}
-
-.smallTitle {
-	font-family: robotoMedIt;
-	font-size: 30px;
-	letter-spacing: 3px
-}
-
-
-.lucy {
-	font-family: robotoReg;
-}
-
-.pubTitle {
-	font-family: robotoReg;
-	text-decoration: underline;
-}
-
-.pubTitle2 {
-    font-family: robotoLightIt;
-    text-decoration: none;
-}
-
-.icon {
-	width: 25px;
-	height: auto;
-}
-
-#contact {
-	margin-left: 5%;
-	margin-right: 5%;
-	padding-top: 1%;
-	padding-bottom: 1%;
+li {
+	list-style-type: none;
 }
