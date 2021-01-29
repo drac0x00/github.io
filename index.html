@@ -14,11 +14,25 @@
 			}
 
 			body {
-				line-height: 1.5;
-				margin: 4rem auto;
-				max-width: 32rem;
-				padding-left: 2rem;
-				padding-right: 2rem;
+				font-family: 'Helvetica', Arial, sans-serif;
+    				color: #1c1c1c;
+		                line-height: 1.4em;
+		                display: flex;
+	                        justify-content: center;
+         			align-items: center;
+    				flex-direction: column;
+			}
+
+			main {
+				text-align: center;
+				display: block;
+				line-height: 1.4em;
+				max-width: 900px;
+			}
+
+			article {
+				max-width: 480px;
+    				padding: 1em;
 			}
 
 			@supports (font: -apple-system-body) {
@@ -26,6 +40,35 @@
 					font: -apple-system-body;
 				}
 			}
+
+			h1 {
+			 	margin-block-start: 0.67em;
+                                margin-block-end: 0.67em;
+                                margin-inline-start: 0px;
+			        margin-inline-end: 0px;
+				font-size: 4em;
+				line-height: initial;
+			}
+
+			h2 {
+				font-size: 2em;
+    			        line-height: initial;
+				margin-block-start: 0.83em;
+			        margin-block-end: 0.83em;
+	                        margin-inline-start: 0px;
+	                        margin-inline-end: 0px;
+	                        font-weight: bold;
+			}
+
+			p {
+		    		display: block;
+		    		margin-block-start: 1em;
+	    			margin-block-end: 1em;
+	    			margin-inline-start: 0px;
+	    			margin-inline-end: 0px;
+				line-height: 1.4em;
+			}
+
 
 			ul {
 				-webkit-padding-start: 0;
@@ -37,12 +80,10 @@
 		</style>
 	</head>
 	<body>
-		<ul>
-			<li>Kurt Bugbee</li>
-			<li>Software Engineer</li>
-			<li>NYC</li>
-			<li><a href="https://github.com/krtbgb">GitHub</a></li>
-			<li><a href="https://www.linkedin.com/in/kurtbugbee/">LinkedIn</a></li>
-		</ul>
+		<main>
+			<h1>
+				hello — i'm <u>kurt</u>,<br> a <u>software engineer</u> living in the beautiful <u>new york city</u>.<br><br><a href="https://www.linkedin.com/in/kurtbugbee">linkedin</a> <a href="https://github.com/krtbgb">github</a>  <a href="https://twitter.com/krtbgb">twitter</a>
+			</h1>
+		</main>
 	</body>
 </html>
